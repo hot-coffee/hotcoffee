@@ -1,0 +1,19 @@
+<div id = "banner">
+		<div id = "banner_info">
+			<img src = "imgs/mwlogo.png" id = "logo">
+			<h3>Weekly handcrafted stories proving #MercedWorks</h3>
+			<a href "pics"><button id = "banner_b">See Our Stories</button></a>
+		</div>
+</div>
+
+<div id = "pic_container" ng-controller="MainController">
+	<div id = "pic_holder">
+		<div id = "pic_rows" ng-repeat = "member in members">
+			<a href = "#/profiles/{{$index}}"><img ng-src = "{{member.mediaLink}}" class = "portrait"></a>
+			<h2 class = "name">{{member.firstName}}</h2>
+			<h3 class = "job">{{member.occupation}}</h3>
+		</div>
+	</div>
+</div>
+
+
