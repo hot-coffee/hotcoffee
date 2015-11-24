@@ -5,6 +5,7 @@
 }
 
 @white: #FFFFFF;
+@button: #27ae60;
 
 //MIXINS
 .container{
@@ -16,10 +17,30 @@
 	text-align: center;
 }
 
+.sign_up(){
+	background: @button;
+	border: none;
+	width: 200px;
+	padding: 15px;
+	color: @white;
+	font-size: 18px;
+	margin-top: 25px;
+	transition: .3s all;
+	-webkit-transition: .3s all;
+	-moz-transition: .3s all;
+	border-radius: 10px;
+	&:hover{
+		background: rgba(255,255,255,.7);
+	}
+	&:focus{
+		outline: 0 !important;
+	}
+}
+
 //DEFAULT CLASSSES
 
 .info_container{
-	overflow: auto;
+	overflow: hidden;
 	width: 100%;
 	background: rgba(0,0,0,.8);
 }
@@ -50,7 +71,11 @@
 			display: block;
 			margin: 0 auto;
 			width: 70%;
+			font-size: 16px;
 		}
+	}
+	button{
+		.sign_up;
 	}
 }
 
@@ -59,6 +84,10 @@
 }
 
 #banner4{
+	.center;
+	.staff_container{
+		color: @white;
+	}
 }
 
 #banner5{

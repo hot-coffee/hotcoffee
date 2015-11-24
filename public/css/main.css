@@ -7,7 +7,7 @@
   width: 100%;
 }
 .info_container {
-  overflow: auto;
+  overflow: hidden;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
 }
@@ -29,12 +29,38 @@
   display: block;
   margin: 0 auto;
   width: 70%;
+  font-size: 16px;
+}
+#banner2 button {
+  background: #27ae60;
+  border: none;
+  width: 200px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 25px;
+  transition: .3s all;
+  -webkit-transition: .3s all;
+  -moz-transition: .3s all;
+  border-radius: 10px;
+}
+#banner2 button:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+#banner2 button:focus {
+  outline: 0 !important;
 }
 #banner3 {
   background: url('../imgs/banner3.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+#banner4 {
+  text-align: center;
+}
+#banner4 .staff_container {
+  color: #FFFFFF;
 }
 #banner5 {
   background: url('../imgs/banner5.jpg');
