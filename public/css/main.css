@@ -7,7 +7,7 @@
   width: 100%;
 }
 .info_container {
-  height: 50vh;
+  overflow: auto;
   width: 100%;
   background: rgba(0, 0, 0, 0.8);
 }
@@ -16,6 +16,19 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+#banner2 {
+  text-align: center;
+  padding: 50px;
+}
+#banner2 .info_column {
+  color: #FFFFFF;
+  margin-top: 20px;
+}
+#banner2 .info_column p {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
 }
 #banner3 {
   background: url('../imgs/banner3.jpg');

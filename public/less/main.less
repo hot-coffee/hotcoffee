@@ -3,14 +3,23 @@
 	margin: 0;
 	padding: 0;
 }
+
+@white: #FFFFFF;
+
 //MIXINS
 .container{
 	height: 90vh;
 	width: 100%;
 }
 
+.center(){
+	text-align: center;
+}
+
+//DEFAULT CLASSSES
+
 .info_container{
-	height: 50vh;
+	overflow: auto;
 	width: 100%;
 	background: rgba(0,0,0,.8);
 }
@@ -22,11 +31,27 @@
 	background-attachment: fixed;
 }
 
+
+//BANNER 1 STYLINGS
+
 #banner1{
 	.background('../imgs/banner1.jpg');
 }
 
+//BANNER 2 STYLINGS
+
 #banner2{
+	.center;
+	padding: 50px;
+	.info_column{
+		color: @white;
+		margin-top: 20px;
+		p{
+			display: block;
+			margin: 0 auto;
+			width: 70%;
+		}
+	}
 }
 
 #banner3{
