@@ -1,3 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+  font-family: "Lato", sans-serif;
+}
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +20,42 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  color: #FFFFFF;
+}
+#banner1 .details_container {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+#banner1 .details_container h1 {
+  font-size: 11vw;
+}
+#banner1 .details_container h3 {
+  font-size: 4vw;
+}
+#banner1 .details_container #button_container {
+  margin-top: 30px;
+}
+#banner1 .details_container #button_container button {
+  background: #27ae60;
+  border: none;
+  width: 250px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 25px;
+  transition: .3s all;
+  -webkit-transition: .3s all;
+  -moz-transition: .3s all;
+  border-radius: 10px;
+  width: 300px;
+  margin: 15px 10px;
+}
+#banner1 .details_container #button_container button:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+#banner1 .details_container #button_container button:focus {
+  outline: 0 !important;
 }
 #banner2 {
   text-align: center;
@@ -66,6 +106,7 @@
 #banner4 .staff_container p {
   margin: 0 auto;
   width: 75%;
+  font-size: 16px;
 }
 #banner4 button {
   background: #27ae60;
