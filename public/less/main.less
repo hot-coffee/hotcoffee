@@ -4,9 +4,15 @@
 	padding: 0;
 }
 //MIXINS
-.container(){
+.container{
 	height: 90vh;
 	width: 100%;
+}
+
+.info_container{
+	height: 50vh;
+	width: 100%;
+	background: rgba(0,0,0,.8);
 }
 
 .background(@url){
@@ -17,7 +23,15 @@
 }
 
 #banner1{
-	.container;
-	.background('..imgs/banner1.jpg');
+	.background('../imgs/banner1.jpg');
 }
 
+#banner2{
+}
+
+#banner3{
+	.background('../imgs/banner3.jpg');
+}
+
+#banner4{
+}

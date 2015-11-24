@@ -2,15 +2,23 @@
   margin: 0;
   padding: 0;
 }
-.background {
+.container {
+  height: 90vh;
+  width: 100%;
+}
+.info_container {
+  height: 50vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+#banner1 {
+  background: url('../imgs/banner1.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-#banner1 {
-  height: 90vh;
-  width: 100%;
-  background: url('../imgs/banner1.jpg');
+#banner3 {
+  background: url('../imgs/banner3.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
