@@ -9,10 +9,10 @@
 .info_container {
   overflow: hidden;
   width: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
 }
 #banner1 {
-  background: url('../imgs/banner1.jpg');
+  background: url('../imgs/banner1.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -26,7 +26,6 @@
   margin-top: 20px;
 }
 #banner2 .info_column p {
-  display: block;
   margin: 0 auto;
   width: 70%;
   font-size: 16px;
@@ -34,7 +33,7 @@
 #banner2 button {
   background: #27ae60;
   border: none;
-  width: 200px;
+  width: 250px;
   padding: 15px;
   color: #FFFFFF;
   font-size: 18px;
@@ -57,10 +56,35 @@
   background-attachment: fixed;
 }
 #banner4 {
+  padding: 50px;
   text-align: center;
 }
 #banner4 .staff_container {
   color: #FFFFFF;
+  margin-top: 20px;
+}
+#banner4 .staff_container p {
+  margin: 0 auto;
+  width: 75%;
+}
+#banner4 button {
+  background: #27ae60;
+  border: none;
+  width: 250px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 25px;
+  transition: .3s all;
+  -webkit-transition: .3s all;
+  -moz-transition: .3s all;
+  border-radius: 10px;
+}
+#banner4 button:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+#banner4 button:focus {
+  outline: 0 !important;
 }
 #banner5 {
   background: url('../imgs/banner5.jpg');

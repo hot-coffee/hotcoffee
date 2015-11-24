@@ -20,7 +20,7 @@
 .sign_up(){
 	background: @button;
 	border: none;
-	width: 200px;
+	width: 250px;
 	padding: 15px;
 	color: @white;
 	font-size: 18px;
@@ -42,7 +42,7 @@
 .info_container{
 	overflow: hidden;
 	width: 100%;
-	background: rgba(0,0,0,.8);
+	background: rgba(0,0,0,.9);
 }
 
 .background(@url){
@@ -56,7 +56,7 @@
 //BANNER 1 STYLINGS
 
 #banner1{
-	.background('../imgs/banner1.jpg');
+	.background('../imgs/banner1.png');
 }
 
 //BANNER 2 STYLINGS
@@ -68,7 +68,6 @@
 		color: @white;
 		margin-top: 20px;
 		p{
-			display: block;
 			margin: 0 auto;
 			width: 70%;
 			font-size: 16px;
@@ -79,16 +78,31 @@
 	}
 }
 
+//BANNER 3 STYLINGS 
+
 #banner3{
 	.background('../imgs/banner3.jpg');
 }
 
+//BANNER 4 STYLINGS 
+
 #banner4{
+	padding: 50px;
 	.center;
 	.staff_container{
 		color: @white;
+		margin-top: 20px;
+		p{
+			margin: 0 auto;
+			width: 75%;
+		}
+	}
+	button{
+		.sign_up;
 	}
 }
+
+//BANNER 5 STYLINGS
 
 #banner5{
 	.background('../imgs/banner5.jpg')
