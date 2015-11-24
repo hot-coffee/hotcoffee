@@ -140,8 +140,11 @@ body {
   top: 100px;
 }
 #banner5 .details_container #register h1 {
-  margin: 40px 0;
+  margin-top: 40px;
   font-size: 50px;
+}
+#banner5 .details_container #register h2 {
+  margin-bottom: 20px;
 }
 #banner5 .details_container #register #reg {
   width: 375px;
