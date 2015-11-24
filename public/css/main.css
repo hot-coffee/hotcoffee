@@ -2,12 +2,16 @@
   margin: 0;
   padding: 0;
 }
+.background {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 #banner1 {
   height: 90vh;
   width: 100%;
-  background: blue;
   background: url('../imgs/banner1.jpg');
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
 }

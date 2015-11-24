@@ -7,17 +7,17 @@
 .container(){
 	height: 90vh;
 	width: 100%;
-	background: blue;
 }
 
 .background(@url){
+	background: url(@url);
+	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	background-size: cover;
-	background: url(@url);
 }
 
 #banner1{
 	.container;
-	.background('../imgs/banner1.jpg');
+	.background('..imgs/banner1.jpg');
 }
+
