@@ -15,7 +15,7 @@ body{
 
 //MIXINS
 .container{
-	height: 90vh;
+	height: 95vh;
 	width: 100%;
 }
 
@@ -137,5 +137,26 @@ body{
 //BANNER 5 STYLINGS
 
 #banner5{
-	.background('../imgs/banner5.jpg')
+	.background('../imgs/banner5.jpg');
+	color: @white;
+	.details_container{
+		.details;
+		#register{
+			h1{
+				margin: 40px 0;
+				font-size: 50px;
+			}
+			#reg{
+				width: 375px;
+				height: 50px;
+				color: @button;
+				font-size: 20px;
+				text-align: center;
+			}
+			button{
+				.sign_up;
+				width: 200px;
+			}
+		}
+	}
 }

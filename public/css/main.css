@@ -7,7 +7,7 @@ body {
   padding: 0;
 }
 .container {
-  height: 90vh;
+  height: 95vh;
   width: 100%;
 }
 .info_container {
@@ -132,4 +132,41 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  color: #FFFFFF;
+}
+#banner5 .details_container {
+  text-align: center;
+  position: relative;
+  top: 100px;
+}
+#banner5 .details_container #register h1 {
+  margin: 40px 0;
+  font-size: 50px;
+}
+#banner5 .details_container #register #reg {
+  width: 375px;
+  height: 50px;
+  color: #27ae60;
+  font-size: 20px;
+  text-align: center;
+}
+#banner5 .details_container #register button {
+  background: #27ae60;
+  border: none;
+  width: 250px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-top: 25px;
+  transition: .3s all;
+  -webkit-transition: .3s all;
+  -moz-transition: .3s all;
+  border-radius: 10px;
+  width: 200px;
+}
+#banner5 .details_container #register button:hover {
+  background: rgba(255, 255, 255, 0.7);
+}
+#banner5 .details_container #register button:focus {
+  outline: 0 !important;
 }
