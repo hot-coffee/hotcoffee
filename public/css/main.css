@@ -23,3 +23,9 @@
   background-position: center;
   background-attachment: fixed;
 }
+#banner5 {
+  background: url('../imgs/banner5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
