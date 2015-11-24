@@ -1,3 +1,23 @@
-body{
-	background: black;
+//DEFAULT STYLES
+*{
+	margin: 0;
+	padding: 0;
+}
+//MIXINS
+.container(){
+	height: 90vh;
+	width: 100%;
+	background: blue;
+}
+
+.background(@url){
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background: url(@url);
+}
+
+#banner1{
+	.container;
+	.background('../imgs/banner1.jpg');
 }
