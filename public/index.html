@@ -6,6 +6,13 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<!-- LOCAL CSS !-->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+	<!-- JQUERY !-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	<!-- UNDERSCORE CDN !-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
 </head>
 <body>
 
@@ -75,13 +82,15 @@
 					<div id = "register">
 						<h1>SIGN UP TODAY FOR CLASS PLACEMENT</h1>
 						<h2>4 week program starts Jan. 16th</h2>
-						<input type = 'email' id = 'reg' placeholder = "E-MAIL"><br>
-						<button class = "sign_up">SUBMIT</button>
+						<input type = 'email' id = 'email' class = "info" placeholder = "E-MAIL"><br>
+						<button id = "sub" class = "sign_up">SUBMIT</button>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<!--SCRIPTS !-->
+	<script type="text/javascript" src = "./js/validate.js"></script>
 </body>
 </html>
