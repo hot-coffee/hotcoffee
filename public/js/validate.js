@@ -1,3 +1,5 @@
+$('#validation').hide();
+
 function Validator() {
     this.email = $('#email');
     this.buttonElement = $('#sub');
@@ -29,6 +31,8 @@ function Validator() {
         if (this.validateEmail()) {
             var validatedObject = {email: this.email.val()};
             this.objectSender(validatedObject);
+            $('#register').hide();
+            $('#validation').fadeIn(400);
         } else {
             alert('Enter a valid email');
         }

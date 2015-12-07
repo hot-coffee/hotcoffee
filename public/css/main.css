@@ -61,6 +61,9 @@ body {
   text-align: center;
   padding: 50px;
 }
+#banner2 #banner2_info {
+  visibility: hidden;
+}
 #banner2 .info_column {
   color: #FFFFFF;
   margin-top: 20px;
@@ -139,6 +142,9 @@ body {
   position: relative;
   top: 100px;
 }
+#banner5 .details_container #register {
+  visibility: hidden;
+}
 #banner5 .details_container #register h1 {
   margin-top: 40px;
   font-size: 50px;
@@ -172,4 +178,7 @@ body {
 }
 #banner5 .details_container #register button:focus {
   outline: 0 !important;
+}
+.show {
+  visibility: visible;
 }

@@ -11,7 +11,10 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 	<!-- UNDERSCORE CDN !-->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+	<!-- ANIMATE.CSS styles !-->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
 
 </head>
 <body>
@@ -22,32 +25,35 @@
 				<h1>HOTCOFFEE.IO</h1>
 				<h3>Learn to design, build and deploy websites</h3>
 				<div id = "button_container">
-					<button class = "sign_up">SIGN UP FOR $199.99</button>
-					<button class = "sign_up">LEARN MORE</button>
+					<a href = "#sign"><button class = "sign_up">SIGN UP FOR $199.99</button></a>
+					<a href = "#learn"><button class = "sign_up">LEARN MORE</button></a>
 				</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<div id = "learn"></div>
 	<div id = "banner2" class = "info_container">
-		<div class = "row">
-			<div class = "col-sm-4 info_column">
-				<img src = "./imgs/icons/hc.png" class = "icon">
-				<h2>DESIGN</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum eu nulla at accumsan.</p>
+		<div id = "banner2_info">
+			<div class = "row">
+				<div class = "col-sm-4 info_column">
+					<img src = "./imgs/icons/hc.png" class = "icon">
+					<h2>DESIGN</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum eu nulla at accumsan.</p>
+				</div>
+				<div class = "col-sm-4 info_column">
+					<img src = "./imgs/icons/fp.png" class = "icon">
+					<h2>BUILD</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum eu nulla at accumsan.</p>
+				</div>
+				<div class = "col-sm-4 info_column">
+					<img src = "./imgs/icons/cc.png" class = "icon">
+					<h2>DEPLOY</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum eu nulla at accumsan.</p>
+				</div>
+				<a href = "#sign"><button id = "info_button" class = "sign_up">SIGN UP FOR $199.99</button></a>
 			</div>
-			<div class = "col-sm-4 info_column">
-				<img src = "./imgs/icons/fp.png" class = "icon">
-				<h2>BUILD</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum eu nulla at accumsan.</p>
-			</div>
-			<div class = "col-sm-4 info_column">
-				<img src = "./imgs/icons/cc.png" class = "icon">
-				<h2>DEPLOY</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum eu nulla at accumsan.</p>
-			</div>
-			<button id = "info_button" class = "sign_up">SIGN UP FOR $199.99</button>
 		</div>
 	</div>
 
@@ -75,6 +81,7 @@
 		</div>
 	</div>
 
+	<a id = "sign"></a>
 	<div id = "banner5" class = "container">
 		<div class = "details_container">
 			<div class = "details">
@@ -85,6 +92,9 @@
 						<input type = 'email' id = 'email' class = "info" placeholder = "E-MAIL"><br>
 						<button id = "sub" class = "sign_up">SUBMIT</button>
 					</div>
+					<div id = "validation">
+						<h1>Thank you! We'll be in touch!</h1>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -92,5 +102,6 @@
 
 	<!--SCRIPTS !-->
 	<script type="text/javascript" src = "./js/validate.js"></script>
+	<script type="text/javascript" src = "./js/function.js"></script>
 </body>
 </html>
