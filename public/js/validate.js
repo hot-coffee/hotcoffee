@@ -34,7 +34,7 @@ function Validator() {
             $('#register').hide();
             $('#validation').fadeIn(400);
         } else {
-            alert('Enter a valid email');
+            alert('Please enter a valid email');
         }
     };
 

@@ -111,24 +111,10 @@ body {
   width: 75%;
   font-size: 16px;
 }
-#banner4 button {
-  background: #27ae60;
-  border: none;
-  width: 250px;
-  padding: 15px;
-  color: #FFFFFF;
-  font-size: 18px;
-  margin-top: 25px;
-  transition: .3s all;
-  -webkit-transition: .3s all;
-  -moz-transition: .3s all;
-  border-radius: 10px;
-}
-#banner4 button:hover {
-  background: rgba(255, 255, 255, 0.7);
-}
-#banner4 button:focus {
-  outline: 0 !important;
+#banner4 .staff_container .linked {
+  margin-top: 10px;
+  height: 45px;
+  width: 45px;
 }
 #banner5 {
   background: url('../imgs/banner5.jpg');
