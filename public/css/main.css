@@ -106,6 +106,10 @@ body {
   color: #FFFFFF;
   margin-top: 20px;
 }
+#banner4 .staff_container img {
+  height: 300px;
+  width: 300px;
+}
 #banner4 .staff_container p {
   margin: 0 auto;
   width: 75%;
