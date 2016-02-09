@@ -14,7 +14,7 @@ function Validator() {
         var self = this;
         console.log('data to send', fieldObj);
         $.ajax({
-            url: 'http://localhost:9042/save-client',
+            url: '/save-profile',
             type: 'post',
             contentType: 'application/json; charset=utf-8',
             dataType: 'json',
@@ -44,11 +44,11 @@ function Validator() {
 
     this.handleFailedResponse = function(error) {
         console.log('Ajax request failed with error:', error);
-    }
+    };
 
     this.validateEmail = function(){
         return this.email.val().indexOf('@') !== -1 && this.email.val() != "";
-    }
+    };
 }
 
 var validator = new Validator();
